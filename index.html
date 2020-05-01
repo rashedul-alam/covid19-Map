@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GL-MAP</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="js/store-data.js"></script>
+    <script src="js/index.js"></script>
+    <script src="https://kit.fontawesome.com/c939d0e917.js
+    "></script>
+
+</head>
+
+<body>
+    <div id="map"></div>
+    <div class="title">
+        COVID19 MAP
+    </div>
+    <div class="search-container">
+        <div class="search">
+            <input id="country-name" type="text" placeholder="Enter Country Name">
+            <i class="fas fa-search-location" onclick="searchStores()"></i>
+        </div>
+    </div>
+
+    <div class="countries-list-container">
+        <div class="countries-list">
+            <div class="country-container-background">
+                <div class="country-container">
+
+
+                    <div class="country-info-container">
+                        <div class="country-details">
+                            <span>Bangladesh </span>
+                            <span>total_cases: "8238",
+                                new_cases: "571",
+                                total_death: "170",
+                                new_death: "2",
+                                total_recovered: "174",
+                                active_cases: "7894",
+                                critical_cases: "1",
+                                total_cases_per_million: "50",
+                                total_death_per_million: "1",</span>
+                        </div>
+                        <div class="country-details-1">
+                            123-123123-123
+                        </div>
+                    </div>
+
+                    <div class="country-details-2">
+                        <div class="country-number">
+                            1
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDti_el_tq4Jzer_48vjZkLHT3N5ajLwos&callback=initMap" type="text/javascript"></script>
+
+
+    </script>
+</body>
+</body>
+
+</html>
